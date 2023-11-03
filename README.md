@@ -26,6 +26,231 @@ YOOO
 
 Please check the example test cases for the required output format.
 
+## Examples
+
+Example 1
+
+```
+Time:     00:00:01
+Top light:    off  
+```
+
+Example 2
+
+```
+Time:     00:00:02
+Top light:    yellow  
+```
+
+Example 3
+
+```
+Time:     00:00:03
+Top light:    off  
+```
+
+Example 4
+
+```
+Time:     00:00:04
+Top light:    yellow  
+```
+Example 5
+
+```
+Time:     00:00:07
+Top light:    off  
+```
+
+Example 6
+
+```
+Time:     00:00:08
+Top light:    yellow  
+```
+
+Example 7
+
+```
+Time:     00:00:22
+Top light:    yellow  
+```
+
+Example 8
+
+```
+Time:     00:00:29
+Top light:    off  
+```
+
+Example 9
+
+```
+Time:     00:00:59
+Top light:    off  
+```
+
+Example 10
+
+```
+Time:     00:00:00
+Top light:    yellow  
+```
+
+Example 11
+
+```
+Time:     00:01:00
+Minutes row:  Y000  
+```
+
+Example 12
+
+```
+Time:     00:02:00
+Minutes row:  YY00  
+```
+
+Example 13
+
+```
+Time:     00:03:00
+Minutes row:  YYY0  
+```
+
+Example 14
+
+```
+Time:     00:04:00
+Minutes row:  YYYY 
+```
+
+Example 15
+
+```
+Time:     00:05:00
+Minutes row:  0000 
+```
+
+Example 16
+
+```
+Time:     00:06:00
+Minutes row:  Y000 
+```
+
+Example 17
+
+```
+Time:     00:08:00
+Minutes row:  YYY0 
+```
+
+Example 18
+
+```
+Time:     00:12:00
+Minutes row:  YY00 
+```
+
+Example 19
+
+```
+Time:     00:23:00
+Minutes row:  YYY0 
+```
+
+Example 20
+
+```
+Time:     00:00:00
+Minutes row:  0000 
+```
+
+Example 21
+
+```
+Time:     00:05:00
+5-Minutes row:  Y0000000000 
+```
+
+Example 22
+
+```
+Time:     00:10:00
+5-Minutes row:  YY000000000 
+```
+
+Example 23
+
+```
+Time:     00:15:00
+5-Minutes row:  YYR00000000 
+```
+
+Example 24
+
+```
+Time:     00:20:00
+5-Minutes row:  YYRY0000000 
+```
+
+Example 25
+
+```
+Time:     00:25:00
+5-Minutes row:  YYRYY000000 
+```
+
+Example 26
+
+```
+Time:     00:30:00
+5-Minutes row:  YYRYYR00000 
+```
+
+Example 27
+
+```
+Time:     00:35:00
+5-Minutes row:  YYRYYRY0000 
+```
+
+Example 28
+
+```
+Time:     00:40:00
+5-Minutes row:  YYRYYRYY000 
+```
+
+Example 29
+
+```
+Time:     00:45:00
+5-Minutes row:  YYRYYRYYR00 
+```
+
+Example 30
+
+```
+Time:     00:50:00
+5-Minutes row:  YYRYYRYYRY0 
+```
+
+Example 31
+
+```
+Time:     00:55:00
+5-Minutes row:  YYRYYRYYRYY 
+```
+
+Example 32
+
+```
+Time:     00:00:00
+5-Minutes row:  00000000000 
+```
+
 ## Legend
 - ⚠ TODO
 - 🚧 IN PROGRESS

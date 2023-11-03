@@ -39,5 +39,5 @@ Pomodoro 1:
 - ✅ DONE store backlog in BACKLOG.MD
 - ✅ DONE Add project description
 - ✅ DONE Initial refactor
-- ⚠ TODO Examples
+- 🚧 IN PROGRESS Examples
 - ⚠ TODO User stories
