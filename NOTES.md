@@ -38,6 +38,6 @@ Pomodoro 1:
 - ✅ DONE Plan pomodoro 1
 - ✅ DONE store backlog in BACKLOG.MD
 - ✅ DONE Add project description
-- ⚠ TODO Initial refactor
+- ✅ DONE Initial refactor
 - ⚠ TODO Examples
 - ⚠ TODO User stories
