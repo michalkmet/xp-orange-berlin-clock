@@ -8,7 +8,7 @@
 ## Plans
 Pomodoro 1:
 - ✅ DONE Plan pomodoro 1
-- ⚠ TODO store backlog in BACKLOG.MD
+- ✅ DONE store backlog in BACKLOG.MD
 - ⚠ TODO Add project description
 - ⚠ TODO Initial refactor
 - ⚠ TODO Examples
