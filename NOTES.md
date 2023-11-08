@@ -41,3 +41,7 @@ Pomodoro 1:
 - ✅ DONE Initial refactor
 - 🚧 IN PROGRESS Examples
 - ⚠ TODO User stories
+
+Pomodoro 2:
+- 🚧 IN PROGRESS Examples
+- ⚠ TODO User stories

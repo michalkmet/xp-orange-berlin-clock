@@ -251,6 +251,72 @@ Time:     00:00:00
 5-Minutes row:  00000000000 
 ```
 
+Example 33
+
+```
+Time:     01:00:00
+1-hour row:  R000 
+```
+
+Example 34
+
+```
+Time:     02:00:00
+1-hour row:  RR00 
+```
+
+Example 35
+
+```
+Time:     03:00:00
+1-hour row:  RRR0 
+```
+
+Example 36
+
+```
+Time:     04:00:00
+1-hour row:  RRRR
+```
+
+Example 37
+
+```
+Time:     05:00:00
+1-hour row:  0000
+```
+
+Example 38
+```
+Time:     06:00:00
+1-hour row:  Y000
+```
+
+Example 39
+```
+Time:     07:00:00
+1-hour row:  YY00
+```
+
+Example 40
+```
+Time:     08:00:00
+1-hour row:  YYY0
+```
+
+Example 41
+```
+Time:     09:00:00
+1-hour row:  YYYY
+```
+
+Example 41
+```
+Time:     10:00:00
+1-hour row:  0000
+```
+
+
 ## Legend
 - ⚠ TODO
 - 🚧 IN PROGRESS
