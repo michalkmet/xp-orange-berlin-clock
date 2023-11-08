@@ -289,25 +289,25 @@ Time:     05:00:00
 Example 38
 ```
 Time:     06:00:00
-1-hour row:  Y000
+1-hour row:  R000
 ```
 
 Example 39
 ```
 Time:     07:00:00
-1-hour row:  YY00
+1-hour row:  RR00
 ```
 
 Example 40
 ```
 Time:     08:00:00
-1-hour row:  YYY0
+1-hour row:  RRR0
 ```
 
 Example 41
 ```
 Time:     09:00:00
-1-hour row:  YYYY
+1-hour row:  RRRR
 ```
 
 Example 41
@@ -316,6 +316,54 @@ Time:     10:00:00
 1-hour row:  0000
 ```
 
+Example 42
+```
+Time:     00:00:00
+1-hour row: 0000
+5-hour row: 0000
+```
+
+Example 43
+```
+Time:     01:00:00
+5-hour row: 0000
+```
+
+Example 44
+```
+Time:     05:00:00
+5-hour row: R000
+```
+
+Example 45
+```
+Time:     09:00:00
+5-hour row: 0000
+```
+
+Example 46
+```
+Time:     10:00:00
+5-hour row: RR00
+```
+
+Example 47
+```
+Time:     15:00:00
+5-hour row: RRR0
+```
+
+Example 48
+```
+Time:     20:00:00
+5-hour row: RRRR
+```
+
+Example 49
+```
+Time:     24:00:00
+5-hour row: RRRR
+```
 
 ## Legend
 - ⚠ TODO
