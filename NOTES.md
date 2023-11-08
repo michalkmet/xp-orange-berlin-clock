@@ -43,5 +43,5 @@ Pomodoro 1:
 - ⚠ TODO User stories
 
 Pomodoro 2:
-- 🚧 IN PROGRESS Examples
+- ✅ DONE Examples
 - ⚠ TODO User stories
