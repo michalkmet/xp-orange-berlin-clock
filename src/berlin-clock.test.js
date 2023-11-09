@@ -19,4 +19,7 @@ describe('Story1: Top light', () => {
   it("UAT1.6: When I pass time '00:00:08', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO'", () => {
     expect(berlinClock('00:00:08')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
   });
+  it("UAT1.7: When I pass time '00:00:22', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO'", () => {
+    expect(berlinClock('00:00:22')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
+  });
 });
