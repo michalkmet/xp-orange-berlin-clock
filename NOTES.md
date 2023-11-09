@@ -44,4 +44,7 @@ Pomodoro 1:
 
 Pomodoro 2:
 - ✅ DONE Examples
-- ⚠ TODO User stories
+- 🚧 IN PROGRESS User stories
+
+Pomodoro 3:
+- 🚧 IN PROGRESS User stories
