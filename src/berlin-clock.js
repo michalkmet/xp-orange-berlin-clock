@@ -1,5 +1,5 @@
 function berlinClock() {
-  return 'hello';
+  return '0\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO';
 }
 
 module.exports = berlinClock;
