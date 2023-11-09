@@ -67,3 +67,14 @@ As a user, I want to see the lights in the 1-hour row
 - ⚠ TODO UAT4.9: When I pass time '09:00:00', then I should see "Y\nOOOO\nRRRR\n00000000000\n0000"
 - ⚠ TODO UAT4.10: When I pass time '10:00:00', then I should see "Y\nOOOO\n0000\n00000000000\n0000"
 - ⚠ TODO UAT4.11: When I pass time '00:00:00', then I should see "Y\nOOOO\n0000\n00000000000\n0000"
+
+Story5: 5-hour row
+As a user, I want to see the lights in the 5-hour row
+
+- ⚠ TODO UAT5.1: When I pass time '01:00:00', then I should see "Y\nOOOO\nROOO\n00000000000\n0000"
+- ⚠ TODO UAT5.2: When I pass time '05:00:00', then I should see "Y\nROOO\n0OOO\n00000000000\n0000"
+- ⚠ TODO UAT5.3: When I pass time '09:00:00', then I should see "Y\n0OOO\nRRRR\n00000000000\n0000"
+- ⚠ TODO UAT5.4: When I pass time '10:00:00', then I should see "Y\nRROO\n0000\n00000000000\n0000"
+- ⚠ TODO UAT5.5: When I pass time '15:00:00', then I should see "Y\nRRRO\n0000\n00000000000\n0000"
+- ⚠ TODO UAT5.6: When I pass time '20:00:00', then I should see "Y\nRRRR\n0000\n00000000000\n0000"
+- ⚠ TODO UAT5.7: When I pass time '20:00:00', then I should see "Y\nRRRR\n0000\n00000000000\n0000"
