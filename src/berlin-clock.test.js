@@ -26,6 +26,9 @@ describe('Story1: Top light', () => {
     expect(berlinClock('00:00:29')).toBe('0\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
   });
   it("UAT1.9: When I pass time '00:00:59', then I should see '0\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO'", () => {
-    expect(berlinClock('00:00:29')).toBe('0\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
+    expect(berlinClock('00:00:59')).toBe('0\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
+  });
+  it("UAT1.10: When I pass time '00:00:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO'", () => {
+    expect(berlinClock('00:00:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
   });
 });
