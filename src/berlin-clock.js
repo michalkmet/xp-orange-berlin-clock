@@ -11,11 +11,13 @@ function berlinClock(inputTime) {
     secondsPart = 'Y';
   }
 
-  if (minutes % 2 != 0) {
+  if (minutes === '01') {
     minutesPart = 'Y000';
+  } else if (minutes === '02') {
+    minutesPart = 'YY00';
   }
 
-  resultClockStr = secondsPart + '\n' + 'OOOO\nOOOO\nOOOOOOOOOOO' + '\n' + minutesPart;
+  resultClockStr = secondsPart + '\n' + 'OOOO\nOOOO\n00000000000' + '\n' + minutesPart;
   console.log('resultClockStr: ', resultClockStr);
   return resultClockStr;
 }

@@ -35,6 +35,9 @@ describe('Story1: Top light', () => {
 
 describe('Story2: 1-minute row', () => {
   it("UAT2.1: When I pass time '00:01:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nY000'", () => {
-    expect(berlinClock('00:01:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nY000');
+    expect(berlinClock('00:01:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYOOO');
+  });
+  it("UAT2.2: When I pass time '00:02:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYY00'", () => {
+    expect(berlinClock('00:02:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYOO');
   });
 });

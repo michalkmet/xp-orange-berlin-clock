@@ -67,7 +67,7 @@ Story2: 1-minute row
 As a user, I want to see the lights in minutes row
 
 - ✅ DONE UAT2.1: When I pass time '00:01:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nY000'
-- ⚠ TODO UAT2.2: When I pass time '00:02:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYY00'
+- 🚧 IN PROGRESS UAT2.2: When I pass time '00:02:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYY00'
 - ⚠ TODO UAT2.3: When I pass time '00:03:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYY0'
 - ⚠ TODO UAT2.4: When I pass time '00:04:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYYY'
 - ⚠ TODO UAT2.5: When I pass time '00:05:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\n0000'
