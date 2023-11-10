@@ -1,23 +1,23 @@
 function berlinClock(inputTime) {
   let resultClockStr = '';
-  let secondsPart = '0';
+  let secondsPart = 'O';
   let minutesPart = 'OOOO';
   let seconds = Number(inputTime.split(':')[2]);
   let minutes = Number(inputTime.split(':')[1]);
-  console.log('seconds: ', seconds);
+  // console.log('seconds: ', seconds);
   console.log('minutes: ', minutes);
 
   if (seconds % 2 === 0) {
     secondsPart = 'Y';
   }
 
-  if (minutes === '01') {
-    minutesPart = 'Y000';
-  } else if (minutes === '02') {
-    minutesPart = 'YY00';
+  if (minutes === 1) {
+    minutesPart = 'YOOO';
+  } else if (minutes === 2) {
+    minutesPart = 'YYOO';
   }
 
-  resultClockStr = secondsPart + '\n' + 'OOOO\nOOOO\n00000000000' + '\n' + minutesPart;
+  resultClockStr = secondsPart + '\n' + 'OOOO\nOOOO\nOOOOOOOOOOO' + '\n' + minutesPart;
   console.log('resultClockStr: ', resultClockStr);
   return resultClockStr;
 }
