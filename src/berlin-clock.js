@@ -11,7 +11,7 @@ function berlinClock(inputTime) {
     secondsPart = 'Y';
   }
 
-  if (minutes === 1) {
+  if (minutes === 1 || minutes === 6) {
     minutesPart = 'YOOO';
   } else if (minutes === 2) {
     minutesPart = 'YYOO';
