@@ -46,8 +46,8 @@ describe('Story2: 1-minute row', () => {
   it("UAT2.4: When I pass time '00:04:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYYY'", () => {
     expect(berlinClock('00:04:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYYY');
   });
-  it("UAT2.5: When I pass time '00:05:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\n0000'", () => {
-    expect(berlinClock('00:05:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
+  it("UAT2.5: When I pass time '00:05:00', then I should see 'Y\nOOOO\nOOOO\nYOOOOOOOOOO\n0000'", () => {
+    expect(berlinClock('00:05:00')).toBe('Y\nOOOO\nOOOO\nYOOOOOOOOOO\nOOOO');
   });
   it("UAT2.6: When I pass time '00:06:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nY000'", () => {
     expect(berlinClock('00:06:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYOOO');
@@ -63,5 +63,11 @@ describe('Story2: 1-minute row', () => {
   });
   it("UAT2.10: When I pass time '00:00:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\n0000'", () => {
     expect(berlinClock('00:00:00')).toBe('Y\nOOOO\nOOOO\nOOOOOOOOOOO\nOOOO');
+  });
+});
+
+describe('Story3: 5-minutes row', () => {
+  it("UAT3.1: When I pass time '00:05:00', then I should see 'Y\nOOOO\nOOOO\nY0000000000\n0000'", () => {
+    expect(berlinClock('00:05:00')).toBe('Y\nOOOO\nOOOO\nYOOOOOOOOOO\nOOOO');
   });
 });
