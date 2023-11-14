@@ -11,14 +11,22 @@ function berlinClock(inputTime) {
     secondsPart = 'Y';
   }
 
-  if (minutes === 1 || minutes === 6) {
-    minutesPart = 'YOOO';
-  } else if (minutes === 2) {
-    minutesPart = 'YYOO';
-  } else if (minutes === 3) {
-    minutesPart = 'YYYO';
-  } else if (minutes === 4) {
-    minutesPart = 'YYYY';
+  switch (minutes % 5) {
+    case 0:
+      minutesPart = 'OOOO';
+      break;
+    case 1:
+      minutesPart = 'YOOO';
+      break;
+    case 2:
+      minutesPart = 'YYOO';
+      break;
+    case 3:
+      minutesPart = 'YYYO';
+      break;
+    case 4:
+      minutesPart = 'YYYY';
+      break;
   }
 
   resultClockStr = secondsPart + '\n' + 'OOOO\nOOOO\nOOOOOOOOOOO' + '\n' + minutesPart;
