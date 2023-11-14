@@ -76,6 +76,6 @@ As a user, I want to see the lights in minutes row
 Pomodoro 5:
 - ✅ DONE UAT2.6: When I pass time '00:06:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nY000'
 - ✅ DONE UAT2.7: When I pass time '00:08:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYY0'
-- ⚠ TODO UAT2.8: When I pass time '00:12:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYY00'
+- ✅ DONE UAT2.8: When I pass time '00:12:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYY00'
 - ⚠ TODO UAT2.9: When I pass time '00:23:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYY0'
 - ⚠ TODO UAT2.10: When I pass time '00:00:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\n0000'
