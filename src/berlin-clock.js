@@ -43,23 +43,18 @@ function calculateMinutes(minutes) {
 }
 
 function calculateFiveMinutesPart(minutes) {
-  let fiveMinutesPart = 'OOOOOOOOOOO';
-  if (minutes === 5) {
-    fiveMinutesPart = 'YOOOOOOOOOO';
-  } else if (minutes === 10) {
-    fiveMinutesPart = 'YYOOOOOOOOO';
-  } else if (minutes === 15) {
-    fiveMinutesPart = 'YYROOOOOOOO';
-  } else if (minutes === 20) {
-    fiveMinutesPart = 'YYRYOOOOOOO';
-  } else if (minutes === 25) {
-    fiveMinutesPart = 'YYRYYOOOOOO';
-  } else if (minutes === 30) {
-    fiveMinutesPart = 'YYRYYROOOOO';
-  } else if (minutes === 35) {
-    fiveMinutesPart = 'YYRYYRYOOOO';
+  let fiveMinutesStr = '';
+  for (let i = 1; i <= 59; i++) {
+    console.log('i: ', i);
+    if (i % 5 === 0) {
+      if (i <= minutes) {
+        i % 15 === 0 ? (fiveMinutesStr += 'R') : (fiveMinutesStr += 'Y');
+      } else {
+        fiveMinutesStr += 'O';
+      }
+    }
   }
-  return fiveMinutesPart;
+  return fiveMinutesStr;
 }
 
 module.exports = berlinClock;
