@@ -15,7 +15,11 @@ function berlinClock(inputTime) {
   switch (minutes % 5) {
     case 0:
       minutesPart = 'OOOO';
-      minutes === 5 ? fiveMinutesPart = 'YOOOOOOOOOO' : fiveMinutesPart = 'OOOOOOOOOOO';
+      if ( minutes === 5) {
+        fiveMinutesPart = 'YOOOOOOOOOO';
+      } else if (minutes === 10) {
+        fiveMinutesPart = 'YYOOOOOOOOO';
+      }
       break;
     case 1:
       minutesPart = 'YOOO';

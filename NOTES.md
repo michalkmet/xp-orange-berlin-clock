@@ -84,6 +84,9 @@ Pomodoro 5:
 As a user, I want to see the lights in the 5-minutes row
 
 - 🚧 IN PROGRESS UAT3.1: When I pass time '00:10:00', then I should see 'Y\nOOOO\nOOOO\nYY000000000\n0000'
+
+Pomodoro 6:
+- ✅ DONE UAT3.1: When I pass time '00:10:00', then I should see 'Y\nOOOO\nOOOO\nYY000000000\n0000'
 - ⚠ TODO UAT3.2: When I pass time '00:15:00', then I should see 'Y\nOOOO\nOOOO\nYYR00000000\n0000'
 - ⚠ TODO UAT3.3: When I pass time '00:20:00', then I should see 'Y\nOOOO\nOOOO\nYYRY0000000\n0000'
 - ⚠ TODO UAT3.4: When I pass time '00:25:00', then I should see 'Y\nOOOO\nOOOO\nYYRYY000000\n0000'
