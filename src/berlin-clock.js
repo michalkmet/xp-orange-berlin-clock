@@ -56,6 +56,8 @@ function calculateFiveMinutesPart(minutes) {
     fiveMinutesPart = 'YYRYYOOOOOO';
   } else if (minutes === 30) {
     fiveMinutesPart = 'YYRYYROOOOO';
+  } else if (minutes === 35) {
+    fiveMinutesPart = 'YYRYYRYOOOO';
   }
   return fiveMinutesPart;
 }

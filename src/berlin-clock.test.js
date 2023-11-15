@@ -82,4 +82,7 @@ describe('Story3: 5-minutes row', () => {
   it("UAT3.5: When I pass time '00:30:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYR00000\n0000'", () => {
     expect(berlinClock('00:30:00')).toBe('Y\nOOOO\nOOOO\nYYRYYROOOOO\nOOOO');
   });
+  it("UAT3.6: When I pass time '00:35:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRY0000\n0000'", () => {
+    expect(berlinClock('00:35:00')).toBe('Y\nOOOO\nOOOO\nYYRYYRYOOOO\nOOOO');
+  });
 });
