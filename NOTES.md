@@ -88,7 +88,7 @@ As a user, I want to see the lights in the 5-minutes row
 Pomodoro 6:
 - ✅ DONE UAT3.1: When I pass time '00:10:00', then I should see 'Y\nOOOO\nOOOO\nYY000000000\n0000'
 - ✅ DONE UAT3.2: When I pass time '00:15:00', then I should see 'Y\nOOOO\nOOOO\nYYR00000000\n0000'
-- ⚠ TODO UAT3.3: When I pass time '00:20:00', then I should see 'Y\nOOOO\nOOOO\nYYRY0000000\n0000'
+- ✅ DONE UAT3.3: When I pass time '00:20:00', then I should see 'Y\nOOOO\nOOOO\nYYRY0000000\n0000'
 - ⚠ TODO UAT3.4: When I pass time '00:25:00', then I should see 'Y\nOOOO\nOOOO\nYYRYY000000\n0000'
 - ⚠ TODO UAT3.5: When I pass time '00:30:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYR00000\n0000'
 - ⚠ TODO UAT3.6: When I pass time '00:35:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRY0000\n0000'

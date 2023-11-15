@@ -12,16 +12,19 @@ function berlinClock(inputTime) {
     secondsPart = 'Y';
   }
 
+  [minutesPart, fiveMinutesPart] = calculateMinutes(minutes);
+  resultClockStr = secondsPart + '\n' + 'OOOO\nOOOO\n' + fiveMinutesPart + '\n' + minutesPart;
+  console.log('resultClockStr: ', resultClockStr);
+  return resultClockStr;
+}
+
+function calculateMinutes(minutes) {
+  let minutesPart = 'OOOO';
+  let fiveMinutesPart = 'OOOOOOOOOOO';
   switch (minutes % 5) {
     case 0:
       minutesPart = 'OOOO';
-      if (minutes === 5) {
-        fiveMinutesPart = 'YOOOOOOOOOO';
-      } else if (minutes === 10) {
-        fiveMinutesPart = 'YYOOOOOOOOO';
-      } else if (minutes === 15) {
-        fiveMinutesPart = 'YYROOOOOOOO';
-      }
+      fiveMinutesPart = calculateFiveMinutesPart(minutes);
       break;
     case 1:
       minutesPart = 'YOOO';
@@ -36,10 +39,21 @@ function berlinClock(inputTime) {
       minutesPart = 'YYYY';
       break;
   }
+  return [minutesPart, fiveMinutesPart];
+}
 
-  resultClockStr = secondsPart + '\n' + 'OOOO\nOOOO\n' + fiveMinutesPart + '\n' + minutesPart;
-  console.log('resultClockStr: ', resultClockStr);
-  return resultClockStr;
+function calculateFiveMinutesPart(minutes) {
+  let fiveMinutesPart = 'OOOOOOOOOOO';
+  if (minutes === 5) {
+    fiveMinutesPart = 'YOOOOOOOOOO';
+  } else if (minutes === 10) {
+    fiveMinutesPart = 'YYOOOOOOOOO';
+  } else if (minutes === 15) {
+    fiveMinutesPart = 'YYROOOOOOOO';
+  } else if (minutes === 20) {
+    fiveMinutesPart = 'YYRYOOOOOOO';
+  }
+  return fiveMinutesPart;
 }
 
 module.exports = berlinClock;
