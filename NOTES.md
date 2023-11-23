@@ -80,7 +80,7 @@ Pomodoro 5:
 - ✅ DONE UAT2.9: When I pass time '00:23:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYY0'
 - ✅ DONE UAT2.10: When I pass time '00:00:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\n0000'
 
-- 🚧 IN PROGRESS Story3: 5-minutes row
+- ✅ DONE Story3: 5-minutes row
 As a user, I want to see the lights in the 5-minutes row
 
 - 🚧 IN PROGRESS UAT3.1: When I pass time '00:10:00', then I should see 'Y\nOOOO\nOOOO\nYY000000000\n0000'
@@ -98,3 +98,18 @@ Pomodoro 7:
 - ✅ DONE UAT3.8: When I pass time '00:45:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYR00\n0000'
 - ✅ DONE UAT3.9: When I pass time '00:50:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYRY0\n0000'
 - ✅ DONE UAT3.10: When I pass time '00:55:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYRYY\n0000'
+
+Story4: 1-hour row
+As a user, I want to see the lights in the 1-hour row
+
+- ✅ DONE UAT4.1: When I pass time '01:00:00', then I should see 'Y\nOOOO\nROOO\n00000000000\n0000'
+- ⚠ TODO UAT4.2: When I pass time '02:00:00', then I should see 'Y\nOOOO\nRROO\n00000000000\n0000'
+- ⚠ TODO UAT4.3: When I pass time '03:00:00', then I should see 'Y\nOOOO\nRRRO\n00000000000\n0000'
+- ⚠ TODO UAT4.4: When I pass time '04:00:00', then I should see 'Y\nOOOO\nRRRR\n00000000000\n0000'
+- ⚠ TODO UAT4.5: When I pass time '05:00:00', then I should see 'Y\nOOOO\n0000\n00000000000\n0000'
+- ⚠ TODO UAT4.6: When I pass time '06:00:00', then I should see 'Y\nOOOO\nR000\n00000000000\n0000'
+- ⚠ TODO UAT4.7: When I pass time '07:00:00', then I should see 'Y\nOOOO\nRR00\n00000000000\n0000'
+- ⚠ TODO UAT4.8: When I pass time '08:00:00', then I should see 'Y\nOOOO\nRRR0\n00000000000\n0000'
+- ⚠ TODO UAT4.9: When I pass time '09:00:00', then I should see 'Y\nOOOO\nRRRR\n00000000000\n0000'
+- ⚠ TODO UAT4.10: When I pass time '10:00:00', then I should see 'Y\nOOOO\n0000\n00000000000\n0000'
+- ⚠ TODO UAT4.11: When I pass time '00:00:00', then I should see 'Y\nOOOO\n0000\n00000000000\n0000'
