@@ -39,6 +39,7 @@ function calculateHours(hours) {
       result = 'ROOO';
       break;
     case 2:
+    case 7:
       result = 'RROO';
       break;
     case 3:
