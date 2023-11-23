@@ -25,30 +25,20 @@ function berlinClock(inputTime) {
 function calculateHours(hours) {
   let result = '';
 
-  // for (let i = 1; i <= 24; i++) {
-
-  // }
-
-  switch (hours) {
+  switch (hours % 5) {
     case 0:
-    case 5:
-    case 10:
       result = 'OOOO';
       break;
     case 1:
-    case 6:
       result = 'ROOO';
       break;
     case 2:
-    case 7:
       result = 'RROO';
       break;
     case 3:
-    case 8:
       result = 'RRRO';
       break;
     case 4:
-    case 9:
       result = 'RRRR';
       break;
   }
