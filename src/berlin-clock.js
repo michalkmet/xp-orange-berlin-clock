@@ -32,6 +32,7 @@ function calculateHours(hours) {
   switch (hours) {
     case 0:
     case 5:
+    case 10:
       result = 'OOOO';
       break;
     case 1:
