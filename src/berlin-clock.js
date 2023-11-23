@@ -24,6 +24,17 @@ function berlinClock(inputTime) {
 
 function calculateHours(hours) {
   let result = '';
+
+  for (let i = 1; i <= 24; i++) {
+    // if (i <= hours) {
+    //   if (i % 5 === 0) {
+    //     result += 'O';
+    //   } else {
+    //     result += 'R';
+    //   }
+    // }
+  }
+
   switch (hours) {
     case 0:
       result = 'OOOO';
