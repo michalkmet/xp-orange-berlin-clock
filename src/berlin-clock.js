@@ -4,6 +4,7 @@ function berlinClock(inputTime) {
   let minutesPart = 'OOOO';
   let fiveMinutesPart = 'OOOOOOOOOOO';
   let hoursPart = 'OOOO';
+  let fiveHoursPart = 'OOOO';
   let seconds = Number(inputTime.split(':')[2]);
   let minutes = Number(inputTime.split(':')[1]);
   let hours = Number(inputTime.split(':')[0]);
@@ -15,34 +16,36 @@ function berlinClock(inputTime) {
   }
 
   [minutesPart, fiveMinutesPart] = calculateMinutes(minutes);
-  hoursPart = calculateHours(hours);
+  [hoursPart, fiveHoursPart] = calculateHours(hours);
   console.log('hoursPart: ', hoursPart);
-  resultClockStr = secondsPart + '\n' + 'OOOO\n' + hoursPart + '\n' + fiveMinutesPart + '\n' + minutesPart;
+  resultClockStr = secondsPart + '\n' + fiveHoursPart + '\n' + hoursPart + '\n' + fiveMinutesPart + '\n' + minutesPart;
   console.log('resultClockStr: ', resultClockStr);
   return resultClockStr;
 }
 
 function calculateHours(hours) {
-  let result = '';
+  let hoursPart = '';
+  let fiveHoursPart = 'OOOO';
 
   switch (hours % 5) {
     case 0:
-      result = 'OOOO';
+      hoursPart = 'OOOO';
+      fiveHoursPart = 'ROOO';
       break;
     case 1:
-      result = 'ROOO';
+      hoursPart = 'ROOO';
       break;
     case 2:
-      result = 'RROO';
+      hoursPart = 'RROO';
       break;
     case 3:
-      result = 'RRRO';
+      hoursPart = 'RRRO';
       break;
     case 4:
-      result = 'RRRR';
+      hoursPart = 'RRRR';
       break;
   }
-  return result;
+  return [hoursPart, fiveHoursPart];
 }
 
 function calculateMinutes(minutes) {
