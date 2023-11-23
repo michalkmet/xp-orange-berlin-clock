@@ -34,6 +34,9 @@ function calculateHours(hours) {
     case 2:
       result = 'RROO';
       break;
+    case 3:
+      result = 'RRRO';
+      break;
   }
   return result;
 }
