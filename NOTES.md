@@ -95,7 +95,7 @@ Pomodoro 6:
 - ✅ DONE UAT3.7: When I pass time '00:40:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYY000\n0000'
 
 Pomodoro 7:
-- 🚧 IN PROGRESS UAT3.8: When I pass time '00:45:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYR00\n0000'
-- ⚠ TODO UAT3.9: When I pass time '00:50:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYRY0\n0000'
+- ✅ DONE UAT3.8: When I pass time '00:45:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYR00\n0000'
+- ✅ DONE UAT3.9: When I pass time '00:50:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYRY0\n0000'
 - ⚠ TODO UAT3.10: When I pass time '00:55:00', then I should see 'Y\nOOOO\nOOOO\nYYRYYRYYRYY\n0000'
 - ⚠ TODO UAT3.11: When I pass time '00:00:00', then I should see 'Y\nOOOO\nOOOO\n00000000000\n0000'
