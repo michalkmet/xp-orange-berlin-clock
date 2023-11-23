@@ -105,7 +105,7 @@ As a user, I want to see the lights in the 1-hour row
 - ✅ DONE UAT4.1: When I pass time '01:00:00', then I should see 'Y\nOOOO\nROOO\n00000000000\n0000'
 - ✅ DONE UAT4.2: When I pass time '02:00:00', then I should see 'Y\nOOOO\nRROO\n00000000000\n0000'
 - ✅ DONE UAT4.3: When I pass time '03:00:00', then I should see 'Y\nOOOO\nRRRO\n00000000000\n0000'
-- ⚠ TODO UAT4.4: When I pass time '04:00:00', then I should see 'Y\nOOOO\nRRRR\n00000000000\n0000'
+- ✅ DONE UAT4.4: When I pass time '04:00:00', then I should see 'Y\nOOOO\nRRRR\n00000000000\n0000'
 - ⚠ TODO UAT4.5: When I pass time '05:00:00', then I should see 'Y\nOOOO\n0000\n00000000000\n0000'
 - ⚠ TODO UAT4.6: When I pass time '06:00:00', then I should see 'Y\nOOOO\nR000\n00000000000\n0000'
 - ⚠ TODO UAT4.7: When I pass time '07:00:00', then I should see 'Y\nOOOO\nRR00\n00000000000\n0000'
