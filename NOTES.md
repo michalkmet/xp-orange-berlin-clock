@@ -116,7 +116,7 @@ Pomodoro 8:
 - ✅ DONE UAT4.9: When I pass time '09:00:00', then I should see 'Y\nROOO\nRRRR\n00000000000\n0000'
 - ✅ DONE UAT4.10: When I pass time '10:00:00', then I should see 'Y\nRROO\n0000\n00000000000\n0000'
 - ✅ DONE UAT4.11: When I pass time '15:00:00', then I should see 'Y\nOOOO\n0000\n00000000000\n0000'
-- ✅ DONE UAT4.12: When I pass time '21:00:00', then I should see 'Y\nOOOO\nR000\n00000000000\n0000'
+- ✅ DONE UAT4.12: When I pass time '21:00:00', then I should see 'Y\nRRRR\nR000\n00000000000\n0000'
 
 - 🚧 IN PROGRESS Story5: 5-hour row
 As a user, I want to see the lights in the 5-hour row
@@ -131,3 +131,7 @@ Pomodoro 9:
 - ✅ DONE UAT5.5: When I pass time '15:00:00', then I should see 'Y\nRRRO\n0000\n00000000000\n0000'
 - ✅ DONE UAT5.6: When I pass time '20:00:00', then I should see 'Y\nRRRR\n0000\n00000000000\n0000'
 - 🚧 IN PROGRESS  UAT5.7: When I pass time '23:00:00', then I should see 'Y\nRRRR\nRRR0\n00000000000\n0000'
+
+Pomodoro 10:
+- 🚧 IN PROGRESS  UAT5.7: When I pass time '23:00:00', then I should see 'Y\nRRRR\nRRR0\n00000000000\n0000'
+- refactor
