@@ -43,6 +43,7 @@ function calculateHours(hours) {
       break;
     case 4:
       hoursPart = 'RRRR';
+      hours === 9 ? fiveHoursPart = 'ROOO' : fiveHoursPart = 'OOOO';
       break;
   }
   return [hoursPart, fiveHoursPart];
