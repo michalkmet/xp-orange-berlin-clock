@@ -62,12 +62,14 @@ function calculateFiveHoursPart(hours) {
 }
 
 function calculateMinutes(minutes) {
+  return [calculateMinutesPart(minutes), calculateFiveMinutesPart(minutes)];
+}
+
+function calculateMinutesPart(minutes) {
   let minutesPart = 'OOOO';
-  let fiveMinutesPart = 'OOOOOOOOOOO';
   switch (minutes % 5) {
     case 0:
       minutesPart = 'OOOO';
-      fiveMinutesPart = calculateFiveMinutesPart(minutes);
       break;
     case 1:
       minutesPart = 'YOOO';
@@ -82,7 +84,7 @@ function calculateMinutes(minutes) {
       minutesPart = 'YYYY';
       break;
   }
-  return [minutesPart, fiveMinutesPart];
+  return minutesPart;
 }
 
 function calculateFiveMinutesPart(minutes) {

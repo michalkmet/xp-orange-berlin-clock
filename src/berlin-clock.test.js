@@ -149,3 +149,9 @@ describe('Story5: 5-hour row', () => {
     expect(berlinClock('23:00:00')).toBe('Y\nRRRR\nRRRO\nOOOOOOOOOOO\nOOOO');
   });
 });
+
+describe('Story6: random time', () => {
+  it("UAT6.1: When I pass time '12:56:01', then I should see 'O\nRROO\nRROO\nYYRYYRYYRYY\nYOOO'", () => {
+    expect(berlinClock('12:56:01')).toBe('O\nRROO\nRROO\nYYRYYRYYRYY\nYOOO');
+  });
+});
