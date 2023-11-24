@@ -30,7 +30,7 @@ function calculateHours(hours) {
   switch (hours % 5) {
     case 0:
       hoursPart = 'OOOO';
-      fiveHoursPart = 'ROOO';
+      hours === 5 ? fiveHoursPart = 'ROOO' : fiveHoursPart = 'OOOO';
       break;
     case 1:
       hoursPart = 'ROOO';
