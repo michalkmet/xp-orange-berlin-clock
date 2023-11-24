@@ -25,20 +25,11 @@ function berlinClock(inputTime) {
 
 function calculateHours(hours) {
   let hoursPart = '';
-  let fiveHoursPart = 'OOOO';
+  let fiveHoursPart = calculateFiveHoursPart(hours);
 
   switch (hours % 5) {
     case 0:
       hoursPart = 'OOOO';
-      if (hours === 5) {
-        fiveHoursPart = 'ROOO';
-      } else if (hours === 10) {
-        fiveHoursPart = 'RROO';
-      } else if (hours === 15) {
-        fiveHoursPart = 'RRRO';
-      } else if (hours === 20) {
-        fiveHoursPart = 'RRRR';
-      }
       break;
     case 1:
       hoursPart = 'ROOO';
@@ -51,10 +42,25 @@ function calculateHours(hours) {
       break;
     case 4:
       hoursPart = 'RRRR';
-      hours === 9 ? fiveHoursPart = 'ROOO' : fiveHoursPart = 'OOOO';
       break;
   }
   return [hoursPart, fiveHoursPart];
+}
+
+function calculateFiveHoursPart(hours) {
+  let fiveHoursPart = 'OOOO';
+
+  if (hours / 5 > 1 && hours / 5 < 2) {
+    fiveHoursPart = 'ROOO';
+  } else if (hours / 5 > 2 && hours / 5 < 3) {
+    fiveHoursPart = 'RROO';
+  } else if (hours / 5 > 3 && hours / 5 < 4) {
+    fiveHoursPart = 'RRRO';
+  } else if (hours / 5 === 4) {
+    fiveHoursPart = 'RRRR';
+  }
+
+  return fiveHoursPart;
 }
 
 function calculateMinutes(minutes) {
