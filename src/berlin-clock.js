@@ -34,6 +34,8 @@ function calculateHours(hours) {
         fiveHoursPart = 'ROOO';
       } else if (hours === 10) {
         fiveHoursPart = 'RROO';
+      } else if (hours === 15) {
+        fiveHoursPart = 'RRRO';
       }
       break;
     case 1:
