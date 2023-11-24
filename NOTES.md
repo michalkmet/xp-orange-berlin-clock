@@ -133,5 +133,6 @@ Pomodoro 9:
 - 🚧 IN PROGRESS  UAT5.7: When I pass time '23:00:00', then I should see 'Y\nRRRR\nRRR0\n00000000000\n0000'
 
 Pomodoro 10:
-- 🚧 IN PROGRESS  UAT5.7: When I pass time '23:00:00', then I should see 'Y\nRRRR\nRRR0\n00000000000\n0000'
-- refactor
+- ✅ DONE UAT5.7: When I pass time '23:00:00', then I should see 'Y\nRRRR\nRRR0\n00000000000\n0000'
+- ✅ DONE UATs refactor
+- 
