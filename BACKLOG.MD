@@ -70,6 +70,6 @@ As a user, I want to see the lights in the 1-hour row
 Story5: 5-hour row
 As a user, I want to see the lights in the 5-hour row
 
-- ⚠ TODO UAT5.1: When I pass time '01:00:00', then I should see 'Y\nOOOO\nROOO\n00000000000\n0000'
-- ⚠ TODO UAT5.2: When I pass time '20:00:00', then I should see 'Y\nRRRR\n0000\n00000000000\n0000'
-- ⚠ TODO UAT5.3: When I pass time '23:00:00', then I should see 'Y\nRRRR\nRRR0\n00000000000\n0000'
+- ✅ DONE UAT5.1: When I pass time '01:00:00', then I should see 'Y\nOOOO\nROOO\n00000000000\n0000'
+- ✅ DONE UAT5.2: When I pass time '20:00:00', then I should see 'Y\nRRRR\n0000\n00000000000\n0000'
+- ✅ DONE UAT5.3: When I pass time '23:00:00', then I should see 'Y\nRRRR\nRRR0\n00000000000\n0000'
