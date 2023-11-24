@@ -8,8 +8,6 @@ function berlinClock(inputTime) {
   let seconds = Number(inputTime.split(':')[2]);
   let minutes = Number(inputTime.split(':')[1]);
   let hours = Number(inputTime.split(':')[0]);
-  // console.log('seconds: ', seconds);
-  console.log('hours: ', hours);
 
   if (seconds % 2 === 0) {
     secondsPart = 'Y';
@@ -17,9 +15,7 @@ function berlinClock(inputTime) {
 
   [minutesPart, fiveMinutesPart] = calculateMinutes(minutes);
   [hoursPart, fiveHoursPart] = calculateHours(hours);
-  console.log('hoursPart: ', hoursPart);
   resultClockStr = secondsPart + '\n' + fiveHoursPart + '\n' + hoursPart + '\n' + fiveMinutesPart + '\n' + minutesPart;
-  console.log('resultClockStr: ', resultClockStr);
   return resultClockStr;
 }
 
