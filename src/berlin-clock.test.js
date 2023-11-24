@@ -151,7 +151,10 @@ describe('Story5: 5-hour row', () => {
   it("UAT5.4: When I pass time '10:00:00', then I should see 'Y\nRROO\n0000\n00000000000\n0000'", () => {
     expect(berlinClock('10:00:00')).toBe('Y\nRROO\nOOOO\nOOOOOOOOOOO\nOOOO');
   });
-  it("UAT5.5: When I pass time '15:00:00', then I should see 'Y\nRROO\n0000\n00000000000\n0000'", () => {
+  it("UAT5.5: When I pass time '15:00:00', then I should see 'Y\nRRRO\n0000\n00000000000\n0000'", () => {
     expect(berlinClock('15:00:00')).toBe('Y\nRRRO\nOOOO\nOOOOOOOOOOO\nOOOO');
+  });
+  it("UAT5.6: When I pass time '20:00:00', then I should see 'Y\nRRRR\n0000\n00000000000\n0000'", () => {
+    expect(berlinClock('20:00:00')).toBe('Y\nRRRR\nOOOO\nOOOOOOOOOOO\nOOOO');
   });
 });

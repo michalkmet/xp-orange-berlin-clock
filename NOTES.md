@@ -129,5 +129,5 @@ Pomodoro 9:
 - ✅ DONE UAT5.3: When I pass time '09:00:00', then I should see 'Y\nROOO\nRRRR\n00000000000\n0000'
 - ✅ DONE UAT5.4: When I pass time '10:00:00', then I should see 'Y\nRROO\n0000\n00000000000\n0000'
 - ✅ DONE UAT5.5: When I pass time '15:00:00', then I should see 'Y\nRRRO\n0000\n00000000000\n0000'
-- ⚠ TODO UAT5.6: When I pass time '20:00:00', then I should see 'Y\nRRRR\n0000\n00000000000\n0000'
+- ✅ DONE UAT5.6: When I pass time '20:00:00', then I should see 'Y\nRRRR\n0000\n00000000000\n0000'
 - ⚠ TODO UAT5.7: When I pass time '20:00:00', then I should see 'Y\nRRRR\n0000\n00000000000\n0000'
