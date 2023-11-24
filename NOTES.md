@@ -140,4 +140,4 @@ Pomodoro 10:
 - 🚧 IN PROGRESS Story6: random time
 As a user, I want to see the lights for the random time
 - ✅ DONE UAT6.1: When I pass time '12:56:01', then I should see 'O\nRROO\nRROO\nYYRYYRYYRYY\nYOOO'
-- ⚠ TODO UAT6.2: When I pass time '22:32:45', then I should see 'O\nRRRR\nRROO\nYYRYYROOOOO\nYYOO'
+- ✅ DONE UAT6.2: When I pass time '22:32:45', then I should see 'O\nRRRR\nRROO\nYYRYYROOOOO\nYYOO'

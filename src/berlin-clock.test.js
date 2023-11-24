@@ -154,4 +154,7 @@ describe('Story6: random time', () => {
   it("UAT6.1: When I pass time '12:56:01', then I should see 'O\nRROO\nRROO\nYYRYYRYYRYY\nYOOO'", () => {
     expect(berlinClock('12:56:01')).toBe('O\nRROO\nRROO\nYYRYYRYYRYY\nYOOO');
   });
+  it("UAT6.2: When I pass time '22:32:45', then I should see 'O\nRRRR\nRROO\nYYRYYROOOOO\nYYOO'", () => {
+    expect(berlinClock('22:32:45')).toBe('O\nRRRR\nRROO\nYYRYYROOOOO\nYYOO');
+  });
 });
