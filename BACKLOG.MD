@@ -27,7 +27,7 @@ As a user, I want to see the lights in minutes row
 
 - ✅ DONE UAT2.1: When I pass time '00:01:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nY000'
 - ✅ DONE UAT2.2: When I pass time '00:02:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYY00'
-- ✅ DONE UAT2.3: When I pass time '00:03:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYY0'
+- ✅ DONE UAT2.3: When I pass time '00:03:00', then I should see 'Y\nOOOO\nOOOO\nYYRYOOOOOOO\nYYY0'
 - ✅ DONE UAT2.4: When I pass time '00:04:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nYYYY'
 - ✅ DONE UAT2.5: When I pass time '00:05:00', then I should see 'Y\nOOOO\nOOOO\nYOOOOOOOOOO\n0000'
 - ✅ DONE UAT2.6: When I pass time '00:06:00', then I should see 'Y\nOOOO\nOOOO\nOOOOOOOOOOO\nY000'
